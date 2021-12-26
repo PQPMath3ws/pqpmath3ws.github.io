@@ -1,0 +1,42 @@
+<div class="h-100 d-flex justify-content-center align-items-center">
+    <div id="maintenance-message">
+        <div class="center">
+            <i id="maintenance-message-icon" class="fas fa-exclamation-triangle"></i>
+        </div>
+        <div class="center">
+            <h1 id="maintenance-message-title">Nosso Site está em Manutenção!</h1>
+        </div>
+        <div id="maintenance-message-div" class="center">
+            <p>Olá, jovem gafanhoto! No momento, nosso website está passando por uma</p>
+            <p class="p-ignore">breve manutenção (melhorias, correção de bugs, sabe como é.)</p>
+            <p class="p-ignore">Em breve, o site estará no ar novamente, bele?</p>
+            <p class="p-ignore">Agradecido pela paciência comigo!</p>
+        </div>
+        <div class="center">
+            <span id="social-media-span">
+                <p>Me siga nas redes socials: </p>
+                <div id="social-media-links">
+                    <a href="https://www.facebook.com/pqpmath3ws/">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="https://www.twitter.com/pqpmath3ws">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                    <a href="https://www.instagram.com/pqpmath3ws">
+                        <i class="fab fa-instagram-square"></i>
+                    </a>
+                    <a href="https://twitch.com/pqpmath3ws">
+                        <i class="fab fa-twitch"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/pqpmath3ws/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </span>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    document.title = "PQPMath3ws | Site em Manutenção!";
+    document.body.style.backgroundColor = "#EE433B";
+</script>

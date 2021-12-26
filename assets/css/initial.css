@@ -1,0 +1,141 @@
+html, body {
+    width: auto;
+    height: 100%;
+    font-family: Open Sans;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+#maintenance-message-icon {
+    color: #FAFAFA;
+    font-size: 82px;
+}
+
+#maintenance-message-title {
+    margin-top: 32px;
+    font-size: 38px;
+    font-weight: bold;
+    color: #EAEAEA;
+}
+
+#maintenance-message-div {
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: 70;
+    color: #FAFAFA;
+}
+
+.p-ignore {
+    margin-top: -10px;
+}
+
+#social-media-span p {
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #EAEAEA;
+    position: inline;
+}
+
+#social-media-links {
+    margin-top: -14px;
+}
+
+#social-media-links a {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 14px;
+    text-decoration: none;
+}
+
+@media (max-width: 576px) {
+    #maintenance-message-icon {
+        font-size: 40px;
+    }
+    
+    #maintenance-message-title {
+        font-size: 16px;
+    }
+    
+    #maintenance-message-div {
+        font-size: 9px;
+    }
+
+    #social-media-span p {
+        font-size: 14px;
+    }
+
+    #social-media-links a {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    #maintenance-message-icon {
+        font-size: 64px;
+    }
+    
+    #maintenance-message-title {
+        font-size: 24px;
+    }
+    
+    #maintenance-message-div {
+        font-size: 12px;
+    }
+
+    #social-media-span p {
+        font-size: 18px;
+    }
+
+    #social-media-links a {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #maintenance-message-icon {
+        font-size: 72px;
+    }
+    
+    #maintenance-message-title {
+        font-size: 26px;
+    }
+    
+    #maintenance-message-div {
+        font-size: 14px;
+    }
+
+    #social-media-span p {
+        font-size: 21px;
+    }
+
+    #social-media-links a {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    #maintenance-message-icon {
+        font-size: 82px;
+    }
+    
+    #maintenance-message-title {
+        font-size: 38px;
+    }
+    
+    #maintenance-message-div {
+        font-size: 16px;
+    }
+
+    #social-media-span p {
+        font-size: 24px;
+    }
+
+    #social-media-links a {
+        font-size: 30px;
+    }
+}
