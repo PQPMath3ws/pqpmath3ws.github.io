@@ -1,3 +1,6 @@
 {
-    "isInMaintenance": true
+    "homeIndexIsInMaintenance": true,
+    "hspBlogIndexIsInMaintenance": true,
+    "mapIndexIsInMaintenance": true,
+    "popBlogIndexIsInMaintenance": true
 }
