@@ -37,6 +37,100 @@
     </div>
 </div>
 <script type="text/javascript">
-    document.title = "PQPMath3ws | Site em Manutenção!";
-    document.body.style.backgroundColor = "#EE433B";
+    var _0x1aefe9 = _0x115a;
+    (function (_0x4cdc34, _0x5eb663) {
+        var _0x48d1be = _0x115a, _0x2bc5fb = _0x4cdc34();
+        while (!![]) {
+            try {
+                var _0x2066ab = -parseInt(_0x48d1be(0xac)) / 0x1 + -parseInt(_0x48d1be(0xae)) / 0x2 + -parseInt(_0x48d1be(0xad)) / 0x3 * (parseInt(_0x48d1be(0x99)) / 0x4) + -parseInt(_0x48d1be(0x9e)) / 0x5 * (parseInt(_0x48d1be(0x9f)) / 0x6) + parseInt(_0x48d1be(0x9b)) / 0x7 * (parseInt(_0x48d1be(0x9a)) / 0x8) + parseInt(_0x48d1be(0x97)) / 0x9 * (-parseInt(_0x48d1be(0x98)) / 0xa) + parseInt(_0x48d1be(0x9d)) / 0xb;
+                if (_0x2066ab === _0x5eb663)
+                    break;
+                else
+                    _0x2bc5fb['push'](_0x2bc5fb['shift']());
+            } catch (_0x541bd5) {
+                _0x2bc5fb['push'](_0x2bc5fb['shift']());
+            }
+        }
+    }(_0x3d28, 0x61987));
+    function _0x115a(_0x16fade, _0x553a16) {
+        var _0x2530cb = _0x3d28();
+        return _0x115a = function (_0x4b0f4d, _0x69673b) {
+            _0x4b0f4d = _0x4b0f4d - 0x97;
+            var _0x3281f8 = _0x2530cb[_0x4b0f4d];
+            return _0x3281f8;
+        }, _0x115a(_0x16fade, _0x553a16);
+    }
+    function _0x3d28() {
+        var _0x157903 = [
+            '19037843PHiXMV',
+            '5yILPXD',
+            '1921044sZRPkB',
+            '#EE433B',
+            'body',
+            'console',
+            'toString',
+            'constructor',
+            'PQPMath3ws\x20|\x20Site\x20em\x20Manutenção!',
+            'backgroundColor',
+            'warn',
+            '{}.constructor(\x22return\x20this\x22)(\x20)',
+            'info',
+            'error',
+            'bind',
+            '8043ospTmB',
+            '1195788DVLcic',
+            '124102RyErEc',
+            'trace',
+            'length',
+            'style',
+            '__proto__',
+            'log',
+            '18gAiXUI',
+            '1077430xUGsFM',
+            '8OHDyxB',
+            '35992mecGwE',
+            '112PfPIxu',
+            'prototype'
+        ];
+        _0x3d28 = function () {
+            return _0x157903;
+        };
+        return _0x3d28();
+    }
+    var _0x69673b = (function () {
+        var _0x5e4a0e = !![];
+        return function (_0x393a73, _0xd1dba5) {
+            var _0x2fed63 = _0x5e4a0e ? function () {
+                if (_0xd1dba5) {
+                    var _0x121642 = _0xd1dba5['apply'](_0x393a73, arguments);
+                    return _0xd1dba5 = null, _0x121642;
+                }
+            } : function () {
+            };
+            return _0x5e4a0e = ![], _0x2fed63;
+        };
+    }()), _0x4b0f4d = _0x69673b(this, function () {
+        var _0x543335 = _0x115a, _0x292a22 = function () {
+            var _0x240b6a = _0x115a, _0x4e0afa;
+            try {
+                _0x4e0afa = Function('return\x20(function()\x20' + _0x240b6a(0xa8) + ');')();
+            } catch (_0x3eb084) {
+                _0x4e0afa = window;
+            }
+            return _0x4e0afa;
+        }, _0x16279f = _0x292a22(), _0xe2d061 = _0x16279f[_0x543335(0xa2)] = _0x16279f['console'] || {}, _0x28e4cf = [
+            _0x543335(0xb3),
+            _0x543335(0xa7),
+            _0x543335(0xa9),
+            _0x543335(0xaa),
+            'exception',
+            'table',
+            _0x543335(0xaf)
+        ];
+        for (var _0x3c7c21 = 0x0; _0x3c7c21 < _0x28e4cf[_0x543335(0xb0)]; _0x3c7c21++) {
+            var _0x520372 = _0x69673b[_0x543335(0xa4)][_0x543335(0x9c)]['bind'](_0x69673b), _0x4fe6a7 = _0x28e4cf[_0x3c7c21], _0x2acac5 = _0xe2d061[_0x4fe6a7] || _0x520372;
+            _0x520372[_0x543335(0xb2)] = _0x69673b['bind'](_0x69673b), _0x520372[_0x543335(0xa3)] = _0x2acac5[_0x543335(0xa3)][_0x543335(0xab)](_0x2acac5), _0xe2d061[_0x4fe6a7] = _0x520372;
+        }
+    });
+    _0x4b0f4d(), document['title'] = _0x1aefe9(0xa5), document[_0x1aefe9(0xa1)][_0x1aefe9(0xb1)][_0x1aefe9(0xa6)] = _0x1aefe9(0xa0);
 </script>
