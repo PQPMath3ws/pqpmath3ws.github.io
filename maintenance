@@ -16,19 +16,19 @@
             <span id="social-media-span">
                 <p>Me siga nas redes socials: </p>
                 <div id="social-media-links">
-                    <a href="https://www.facebook.com/pqpmath3ws/">
+                    <a href="https://www.facebook.com/pqpmath3ws/" aria-label="Facebook" target="_blank">
                         <i class="fab fa-facebook-square"></i>
                     </a>
-                    <a href="https://www.twitter.com/pqpmath3ws">
+                    <a href="https://www.twitter.com/pqpmath3ws" aria-label="Twitter" target="_blank">
                         <i class="fab fa-twitter-square"></i>
                     </a>
-                    <a href="https://www.instagram.com/pqpmath3ws">
+                    <a href="https://www.instagram.com/pqpmath3ws" aria-label="Instagram" target="_blank">
                         <i class="fab fa-instagram-square"></i>
                     </a>
-                    <a href="https://twitch.com/pqpmath3ws">
+                    <a href="https://twitch.com/pqpmath3ws" aria-label="Twitch" target="_blank">
                         <i class="fab fa-twitch"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/pqpmath3ws/">
+                    <a href="https://www.linkedin.com/in/pqpmath3ws/" aria-label="LinkedIn" target="_blank">
                         <i class="fab fa-linkedin"></i>
                     </a>
                 </div>
