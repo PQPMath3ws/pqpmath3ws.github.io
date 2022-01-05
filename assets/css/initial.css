@@ -4,6 +4,10 @@ html, body {
     font-family: Open Sans;
 }
 
+#maintenance-body {
+    background-color: #EE433B;
+}
+
 .center {
     text-align: center;
     width: 100%;
