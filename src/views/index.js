@@ -6,11 +6,15 @@ const PaginaPrincipal = () => {
     const setMaintenancePage = () => {
         require('../assets/css/maintenance.css');
         var MaintenancePage = require('./maintenance');
+        document.documentElement.className = "maintenance-start-code";
+        document.body.className = "maintenance-start-code";
         document.body.id = "maintenance-body";
         return MaintenancePage.default();
     };
     const setMainPage = () => {
         require('../assets/css/homepage.css');
+        document.documentElement.className = "homepage-start-code";
+        document.body.className = "homepage-start-code";
         let ownerPhotoImage = require('../assets/images/profile_pic.jpg');
         return (
             <div>

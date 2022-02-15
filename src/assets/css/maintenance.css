@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
-html, body {
+.maintenance-start-code {
     display: flex;
     justify-content: center;
     align-items: center;

@@ -4,6 +4,8 @@ const HackerSinceroHomepage = () => {
     const setMaintenancePage = () => {
         require('../../assets/css/maintenance.css');
         var MaintenancePage = require('../maintenance');
+        document.documentElement.className = "maintenance-start-code";
+        document.body.className = "maintenance-start-code";
         document.body.id = "maintenance-body";
         return MaintenancePage.default();
     };
