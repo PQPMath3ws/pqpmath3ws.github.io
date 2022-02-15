@@ -1,7 +1,8 @@
 {
-    "homeIndexIsInMaintenance": true,
-    "hspBlogIndexIsInMaintenance": true,
-    "mapIndexIsInMaintenance": true,
-    "plpBlogIndexIsInMaintenance": true,
-    "popBlogIndexIsInMaintenance": true
+    "homeIndexIsInMaintenance": false,
+    "hsBlogIndexIsInMaintenance": true,
+    "maIndexIsInMaintenance": true,
+    "plBlogIndexIsInMaintenance": true,
+    "poBlogIndexIsInMaintenance": true,
+    "pvIndexIsInMaintenance": true
 }
