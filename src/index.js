@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 import Homepage from './views/index';
 import HackerSinceroHomepage from './views/hacker-sincero/index';
@@ -11,7 +11,7 @@ import ProgramadorLoucoHomepage from './views/programador-louco/index';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={ <Homepage/> } />
         <Route path="/inicial" element={ <Homepage/> } />
@@ -28,7 +28,7 @@ ReactDOM.render(
         <Route path="*" element={ <Homepage/> } />
         { /* rotas para assets */ }
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

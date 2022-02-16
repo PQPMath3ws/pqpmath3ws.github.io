@@ -28,19 +28,19 @@ const PaginaPrincipal = () => {
                         <p id="choose-text">Entre no tópico que desejar:</p>
                     </div>
                     <div id="main-page-links" className="center">
-                        <a href="/hacker-sincero/" className="font-bold">
+                        <a href="#/hacker-sincero/" className="font-bold">
                             Hacker Sincero - Blog
                         </a>
-                        <a href="/musicas/" className="font-bold">
+                        <a href="#/musicas/" className="font-bold">
                             Músicas/Artista - PQPMath3ws
                         </a>
-                        <a href="/portfolio-dev/" className="font-bold">
+                        <a href="#/portfolio-dev/" className="font-bold">
                             Portfólio DEV - by Mathews Martins
                         </a>
-                        <a href="/produtor-otimista/" className="font-bold">
+                        <a href="#/produtor-otimista/" className="font-bold">
                             Produtor Otimista - Blog
                         </a>
-                        <a href="/programador-louco/" className="font-bold">
+                        <a href="#/programador-louco/" className="font-bold">
                             Programador Louco - Blog
                         </a>
                     </div>
