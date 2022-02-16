@@ -11,7 +11,7 @@ import ProgramadorLoucoHomepage from './views/programador-louco/index';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={ <Homepage/> } />
         <Route path="/inicial" element={ <Homepage/> } />
