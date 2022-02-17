@@ -2,28 +2,32 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare, faInstagramSquare, faLinkedin, faTwitch, faTwitterSquare, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faTriangleExclamation } from '@fortawesome/free-solid-svg-icons';
+import maintenanceStyle from '../assets/css/maintenance.module.css';
 
 const Maintenance = () => {
+    document.documentElement.className = maintenanceStyle["maintenance-start-code"];
+    document.body.className = maintenanceStyle["maintenance-start-code"];
+    document.body.id = maintenanceStyle["maintenance-body"];
     document.title = "PQPMath3ws | Site em Manutenção!";
     return (
         <div>
-            <div id="maintenance-message">
-                <div className="center">
-                    <FontAwesomeIcon id="maintenance-message-icon" icon={faTriangleExclamation} />
+            <div id={maintenanceStyle["maintenance-message"]}>
+                <div className={maintenanceStyle["center"]}>
+                    <FontAwesomeIcon id={maintenanceStyle["maintenance-message-icon"]} icon={faTriangleExclamation} />
                 </div>
-                <div className="center">
-                    <h1 id="maintenance-message-title">Nosso Website está em Manutenção!</h1>
+                <div className={maintenanceStyle["center"]}>
+                    <h1 id={maintenanceStyle["maintenance-message-title"]}>Nosso Website está em Manutenção!</h1>
                 </div>
-                <div id="maintenance-message-div" className="center">
+                <div id={maintenanceStyle["maintenance-message-div"]} className={maintenanceStyle["center"]}>
                     <p>Olá, jovem gafanhoto! No momento, nosso website está passando por uma</p>
-                    <p className="p-ignore">breve manutenção (melhorias, correção de bugs, sabe como é.)</p>
-                    <p className="p-ignore">Em breve, o site estará no ar novamente, bele?</p>
-                    <p className="p-ignore">Agradecido pela paciência comigo!</p>
+                    <p className={maintenanceStyle["p-ignore"]}>breve manutenção (melhorias, correção de bugs, sabe como é.)</p>
+                    <p className={maintenanceStyle["p-ignore"]}>Em breve, o site estará no ar novamente, bele?</p>
+                    <p className={maintenanceStyle["p-ignore"]}>Agradecido pela paciência comigo!</p>
                 </div>
-                <div className="center">
-                    <span id="social-media-span">
+                <div className={maintenanceStyle["center"]}>
+                    <span id={maintenanceStyle["social-media-span"]}>
                         <p>Me siga nas redes sociais: </p>
-                        <div id="social-media-links">
+                        <div id={maintenanceStyle["social-media-links"]}>
                             <a href="https://www.facebook.com/pqpmath3ws/" aria-label="Facebook" rel="noreferrer" target="_blank">
                                 <FontAwesomeIcon icon={faFacebookSquare} />
                             </a>

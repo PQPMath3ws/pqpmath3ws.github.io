@@ -7,6 +7,9 @@
     justify-content: center;
     height:92vh;
     font-family: 'Roboto Mono', monospace;
+}
+
+#homepage-body {
     background-color: #E6E6E6;
 }
 
