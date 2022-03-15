@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookSquare, faInstagramSquare, faLinkedin, faTwitch, faTwitterSquare, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookSquare, faGithub, faInstagramSquare, faLinkedin, faTelegram, faTwitch, faTwitterSquare, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faTriangleExclamation } from '@fortawesome/free-solid-svg-icons';
 import maintenanceStyle from '../assets/css/maintenance.module.css';
 
@@ -26,16 +26,22 @@ const Maintenance = () => {
                 </div>
                 <div className={maintenanceStyle["center"]}>
                     <span id={maintenanceStyle["social-media-span"]}>
-                        <p>Me siga nas redes sociais: </p>
+                        <p>Interaja comigo nas redes sociais: </p>
                         <div id={maintenanceStyle["social-media-links"]}>
                             <a href="https://www.facebook.com/pqpmath3ws/" aria-label="Facebook" rel="noreferrer" target="_blank">
                                 <FontAwesomeIcon icon={faFacebookSquare} />
+                            </a>
+                            <a href="https://github.com/PQPMath3ws" aria-label="GitHub" rel="noreferrer" target="_blank">
+                                <FontAwesomeIcon icon={faGithub} />
                             </a>
                             <a href="https://www.instagram.com/pqpmath3ws" aria-label="Instagram" rel="noreferrer" target="_blank">
                                 <FontAwesomeIcon icon={faInstagramSquare} />
                             </a>
                             <a href="https://www.linkedin.com/in/pqpmath3ws/" aria-label="LinkedIn" rel="noreferrer" target="_blank">
                                 <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                            <a href="https://t.me/PQPMath3ws" aria-label="Telegram" rel="noreferrer" target="_blank">
+                                <FontAwesomeIcon icon={faTelegram} />
                             </a>
                             <a href="https://www.twitch.com/pqpmath3ws" aria-label="Twitch" rel="noreferrer" target="_blank">
                                 <FontAwesomeIcon icon={faTwitch} />

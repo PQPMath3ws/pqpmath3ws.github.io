@@ -104,12 +104,20 @@
     color: #4267B2 !important;
 }
 
+.github {
+    color: #000000 !important;
+}
+
 .instagram {
     color: #BC2A8D !important;
 }
 
 .linkedin {
     color: #0077B5 !important;
+}
+
+.telegram {
+    color: #229ED9 !important;
 }
 
 .twitch {
