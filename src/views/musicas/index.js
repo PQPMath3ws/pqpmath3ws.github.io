@@ -5,8 +5,6 @@ import pagesStatus from '../../static/pages_status.json';
 
 const MusicasHomepage = () => {
     const [getSearchParams] = useSearchParams();
-    console.log("1 - ");
-    console.log(getSearchParams);
     const setMaintenancePage = () => {
         var MaintenancePage = require('../maintenance');
         return MaintenancePage.default();
@@ -15,17 +13,14 @@ const MusicasHomepage = () => {
         document.documentElement.className = musicsStyle["musics-start-code"];
         document.body.className = musicsStyle["musics-start-code"];
         document.body.id = musicsStyle["musics-body"];
-        document.title = "PQPMath3ws | Músicas";
         const preSave = getSearchParams.get("preSave");
         if(parseInt(preSave) === 1) {
-            /*
+            document.title = "PQPMath3ws | Novos Projetos Musicais";
             var PreSaveMusics = require('./pre_save_musics');
             return PreSaveMusics.default();
-            */
-            var MaintenancePage = require('../maintenance');
-            return MaintenancePage.default();
         }
         else {
+            document.title = "PQPMath3ws | Músicas";
             var OldMusics = require('./old_musics');
             return OldMusics.default();
         }
