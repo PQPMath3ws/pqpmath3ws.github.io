@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 
 import Homepage from './views/index';
@@ -9,7 +9,10 @@ import PorfolioDevHomepage from './views/portfolio-dev/index';
 import ProdutorOtimistaHomepage from './views/produtor-otimista/index';
 import ProgramadorLoucoHomepage from './views/programador-louco/index';
 
-ReactDOM.render(
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement);
+
+root.render(
   <React.StrictMode>
     <HashRouter basename={process.env.PUBLIC_URL}>
       <Routes>
@@ -29,6 +32,5 @@ ReactDOM.render(
         { /* rotas para assets */ }
       </Routes>
     </HashRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
