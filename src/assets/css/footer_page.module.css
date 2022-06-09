@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro:wght@400;700&display=swap");
+
+#footer {
+    background-color: #222222;
+    width: auto;
+    padding-top: 50px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+#social-media-span p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    position: inline;
+}
+
+#social-media-links a {
+    font-weight: bold;
+    font-size: 22px;
+    margin-right: 14px;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 3px solid #141414;
+    color: #000000;
+    text-align: center;
+    padding: 5px;
+    background-color: #141414;
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition:.4s;
+}
+
+.facebook, .github, .instagram, .linkedin, .telegram, .twitch, .twitter, .youtube, .footer-link-home, .footer-link-about, .footer-link-supporters {
+    color: #FFFFFF !important;
+}
+
+.facebook:hover {
+    color: #6297FA !important;
+}
+
+.github:hover {
+    color: #505050 !important;
+}
+
+.instagram:hover {
+    color: #CF2FBF !important;
+}
+
+.linkedin:hover {
+    color: #0077B5 !important;
+}
+
+.telegram:hover {
+    color: #229ED9 !important;
+}
+
+.twitch:hover {
+    color: #8461A5 !important;
+}
+
+.twitter:hover {
+    color: #1AAAFF !important;
+}
+
+.youtube:hover {
+    color: #FF0000 !important;
+}
+
+#links-footer-div {
+    margin-top: 20px;
+    padding-bottom: 36px;
+    font-family: 'Tai Heritage Pro', serif;
+}
+
+#footer-links a {
+    font-size: 16px;
+    text-decoration: none;
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition:.4s;
+}
+
+.footer-link-home, .footer-link-about {
+    margin-right: 36px;
+}
+
+#footer-links a:hover {
+    font-weight: bold;
+    color: #11B8FF !important;
+}
