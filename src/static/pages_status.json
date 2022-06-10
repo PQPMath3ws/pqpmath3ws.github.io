@@ -2,7 +2,7 @@
     "homeIndexIsInMaintenance": false,
     "hsBlogIndexIsInMaintenance": false,
     "maIndexIsInMaintenance": false,
-    "plBlogIndexIsInMaintenance": true,
-    "poBlogIndexIsInMaintenance": true,
+    "plBlogIndexIsInMaintenance": false,
+    "poBlogIndexIsInMaintenance": false,
     "pvIndexIsInMaintenance": true
 }
