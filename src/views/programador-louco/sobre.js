@@ -9,7 +9,7 @@ const About = () => {
     document.title = "Programador Louco | Sobre";
     const baseLink = window.location.protocol + "//" + window.location.host + "/";
     const actualDir = "#/programador-louco/";
-    const headerImageAlt = "";
+    const headerImageAlt = "Logo da Página Programador Louco, com um desenho de uma pessoa mexendo no computador com o rosto do dono do site, e na direita do desenho, a escrita Programador, com a cor preta, em uma linha, alinhada ao desenho, e a palavra Louco, na cor verde, embaixo.";
     return(
         <div>
             <Header imageHeader={headerImage} baseUrl={baseLink + actualDir} headerImageAlt={headerImageAlt}></Header>

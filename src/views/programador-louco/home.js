@@ -12,7 +12,7 @@ const Home = () => {
     document.title = "Programador Louco | Início";
     const baseLink = window.location.protocol + "//" + window.location.host + "/";
     const actualDir = "#/programador-louco/";
-    const headerImageAlt = "";
+    const headerImageAlt = "Logo da Página Programador Louco, com um desenho de uma pessoa mexendo no computador com o rosto do dono do site, e na direita do desenho, a escrita Programador, com a cor preta, em uma linha, alinhada ao desenho, e a palavra Louco, na cor verde, embaixo.";
     const params = useParams();
     const id = params.id ? Math.abs(params.id) : 1;
     const postsToShow = Posts.length > 0 ? Posts.slice((id - 1) * 5, id * 5) : [];
