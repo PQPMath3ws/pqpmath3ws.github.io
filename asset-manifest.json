@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e83ea63.css",
-    "main.js": "/static/js/main.1051309c.js",
+    "main.css": "/static/css/main.7750cb17.css",
+    "main.js": "/static/js/main.f3f989ca.js",
     "static/media/profile_pic.jpg": "/static/media/profile_pic.6b702883fd731343319f.jpg",
     "static/media/MeioInseguroEnfim.jpg": "/static/media/MeioInseguroEnfim.70cbc9cca3fd728f5861.jpg",
     "static/media/NaoVouVoltarAtras.jpg": "/static/media/NaoVouVoltarAtras.214f4c298ff520b7e772.jpg",
@@ -9,15 +9,17 @@
     "static/media/Invisivel.jpg": "/static/media/Invisivel.cf6ba6af5b6f3ba204f6.jpg",
     "static/media/hacker_sincero.png": "/static/media/hacker_sincero.c7abee4d7bacf9ba9568.png",
     "static/media/EhSohDeixarAcontecer.jpg": "/static/media/EhSohDeixarAcontecer.b044be6b00d5d47a571d.jpg",
+    "static/media/programador_louco.png": "/static/media/programador_louco.2aa567635464636f5fc8.png",
     "static/media/Nightmares.jpg": "/static/media/Nightmares.a34d3386df628981595b.jpg",
     "static/media/NaoTenhaMedoJamais.jpg": "/static/media/NaoTenhaMedoJamais.a2f4c3dcaedd7401032f.jpg",
+    "static/media/produtor_otimista.png": "/static/media/produtor_otimista.09c01547ba7e86a9cee7.png",
     "static/media/conect_hpcell.jpg": "/static/media/conect_hpcell.5a152e557df482ee1cd9.jpg",
     "index.html": "/index.html",
-    "main.7e83ea63.css.map": "/static/css/main.7e83ea63.css.map",
-    "main.1051309c.js.map": "/static/js/main.1051309c.js.map"
+    "main.7750cb17.css.map": "/static/css/main.7750cb17.css.map",
+    "main.f3f989ca.js.map": "/static/js/main.f3f989ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e83ea63.css",
-    "static/js/main.1051309c.js"
+    "static/css/main.7750cb17.css",
+    "static/js/main.f3f989ca.js"
   ]
 }
