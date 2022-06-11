@@ -15,7 +15,7 @@ jobs:
           node-version: '16.15.1'
       - name: Building web-app
         run: |
-          npm ci
+          npm ci --force
           npm run build
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
