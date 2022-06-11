@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: '16.14.2'
+          node-version: '16.15.1'
       - name: Building web-app
         run: |
           npm ci
