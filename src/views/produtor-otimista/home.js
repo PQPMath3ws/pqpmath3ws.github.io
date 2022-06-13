@@ -15,7 +15,7 @@ const Home = () => {
     const headerImageAlt = "Logo da Página Produtor Otimista, com um desenho de um headphone com uma onde de som dentro do fone, e ao lado do desenho, as palavras Produtor, com a cor preta e embaixo, um traço de onda sonora seguido da palavra otimista, ambos em vermelho.";
     const params = useParams();
     const id = params.id ? Math.abs(params.id) : 1;
-    const postsToShow = Posts.length > 0 ? Posts.slice((id - 1) * 5, id * 5) : [];
+    const postsToShow = Posts.length > 0 ? Posts.slice((id - 1) * 10, id * 10) : [];
     if(params.id && postsToShow.length === 0) {
         return <Navigate replace to="/produtor-otimista/" />
     }
@@ -25,7 +25,7 @@ const Home = () => {
     return(
         <div>
             <Header imageHeader={headerImage} baseUrl={baseLink + actualDir} headerImageAlt={headerImageAlt}></Header>
-            <PostsComponent baseUrl = {baseLink + actualDir} postsFiles={postsToShow} haveNextPage={Posts.length > (id * 5) ? true : false} haveBackPage={id > 1 ? true : false} pageID={id}></PostsComponent>
+            <PostsComponent baseUrl = {baseLink + actualDir} postsFiles={postsToShow} haveNextPage={Posts.length > (id * 10) ? true : false} haveBackPage={id > 1 ? true : false} pageID={id}></PostsComponent>
             <Footer homeAddress={baseLink + actualDir} aboutAddress={baseLink + actualDir + "sobre/"} supportersAddress={baseLink + actualDir + "apoiadores/"}></Footer>
         </div>
     );

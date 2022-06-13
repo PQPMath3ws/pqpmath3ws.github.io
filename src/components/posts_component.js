@@ -25,86 +25,24 @@ const PostsPage = (props) => {
     const GeneratePageWithPosts = () => {
         return(
             <div id={postsComponentStyles["posts"]} className={postsComponentStyles["center"]}>
-                {props.postsFiles[0] && 
-                <div className={postsComponentStyles["post-element"]}>
-                    <div className={postsComponentStyles["post-element-image-div"]}>
-                        <a href={props.baseUrl + "post/" + props.postsFiles[0][0].id}>
-                            <img className={postsComponentStyles["post-element-image"]} src={props.postsFiles[0][1]} alt={props.postsFiles[0][0].altImage}></img>
-                        </a>
-                    </div>
-                    <div className={postsComponentStyles["post-texts-div"]}>
-                        <a href={props.baseUrl + "post/" + props.postsFiles[0][0].id}>
-                            <p className={postsComponentStyles["post-element-title"]}>{props.postsFiles[0][0].title}</p>
-                        </a>
-                        <p className={postsComponentStyles["post-element-description"]}>{props.postsFiles[0][0].description}</p>
-                        <a className={postsComponentStyles["post-element-link"]} href={props.baseUrl + "post/" + props.postsFiles[0][0].id}>Ler mais...</a>
-                    </div>
-                </div>
-                }
-                {props.postsFiles[1] && 
-                <div className={postsComponentStyles["post-element"]}>
-                    <div className={postsComponentStyles["post-element-image-div"]}>
-                        <a href={props.baseUrl + "post/" + props.postsFiles[1][0].id}>
-                            <img className={postsComponentStyles["post-element-image"]} src={props.postsFiles[1][1]} alt={props.postsFiles[1][0].altImage}></img>
-                        </a>
-                    </div>
-                    <div className={postsComponentStyles["post-texts-div"]}>
-                        <a href={props.baseUrl + "post/" + props.postsFiles[1][0].id}>
-                            <p className={postsComponentStyles["post-element-title"]}>{props.postsFiles[1][0].title}</p>
-                        </a>
-                        <p className={postsComponentStyles["post-element-description"]}>{props.postsFiles[1][0].description}</p>
-                        <a className={postsComponentStyles["post-element-link"]} href={props.baseUrl + "post/" + props.postsFiles[1][0].id}>Ler mais...</a>
-                    </div>
-                </div>
-                }
-                {props.postsFiles[2] && 
-                <div className={postsComponentStyles["post-element"]}>
-                    <div className={postsComponentStyles["post-element-image-div"]}>
-                        <a href={props.baseUrl + "post/" + props.postsFiles[2][0].id}>
-                            <img className={postsComponentStyles["post-element-image"]} src={props.postsFiles[2][1]} alt={props.postsFiles[2][0].altImage}></img>
-                        </a>
-                    </div>
-                    <div className={postsComponentStyles["post-texts-div"]}>
-                        <a href={props.baseUrl + "post/" + props.postsFiles[2][0].id}>
-                            <p className={postsComponentStyles["post-element-title"]}>{props.postsFiles[2][0].title}</p>
-                        </a>
-                        <p className={postsComponentStyles["post-element-description"]}>{props.postsFiles[2][0].description}</p>
-                        <a className={postsComponentStyles["post-element-link"]} href={props.baseUrl + "post/" + props.postsFiles[2][0].id}>Ler mais...</a>
-                    </div>
-                </div>
-                }
-                {props.postsFiles[3] && 
-                <div className={postsComponentStyles["post-element"]}>
-                    <div className={postsComponentStyles["post-element-image-div"]}>
-                        <a href={props.baseUrl + "post/" + props.postsFiles[3][0].id}>
-                            <img className={postsComponentStyles["post-element-image"]} src={props.postsFiles[3][1]} alt={props.postsFiles[3][0].altImage}></img>
-                        </a>
-                    </div>
-                    <div className={postsComponentStyles["post-texts-div"]}>
-                        <a href={props.baseUrl + "post/" + props.postsFiles[3][0].id}>
-                            <p className={postsComponentStyles["post-element-title"]}>{props.postsFiles[3][0].title}</p>
-                        </a>
-                        <p className={postsComponentStyles["post-element-description"]}>{props.postsFiles[3][0].description}</p>
-                        <a className={postsComponentStyles["post-element-link"]} href={props.baseUrl + "post/" + props.postsFiles[3][0].id}>Ler mais...</a>
-                    </div>
-                </div>
-                }
-                {props.postsFiles[4] && 
-                <div className={postsComponentStyles["post-element"]}>
-                    <div className={postsComponentStyles["post-element-image-div"]}>
-                        <a href={props.baseUrl + "post/" + props.postsFiles[4][0].id}>
-                            <img className={postsComponentStyles["post-element-image"]} src={props.postsFiles[4][1]} alt={props.postsFiles[4][0].altImage}></img>
-                        </a>
-                    </div>
-                    <div className={postsComponentStyles["post-texts-div"]}>
-                        <a href={props.baseUrl + "post/" + props.postsFiles[4][0].id}>
-                            <p className={postsComponentStyles["post-element-title"]}>{props.postsFiles[4][0].title}</p>
-                        </a>
-                        <p className={postsComponentStyles["post-element-description"]}>{props.postsFiles[4][0].description}</p>
-                        <a className={postsComponentStyles["post-element-link"]} href={props.baseUrl + "post/" + props.postsFiles[4][0].id}>Ler mais...</a>
-                    </div>
-                </div>
-                }
+                {props.postsFiles.map(post => {
+                    return(
+                        <div className={postsComponentStyles["post-element"]}>
+                            <div className={postsComponentStyles["post-element-image-div"]}>
+                                <a href={props.baseUrl + "post/" + post[0].id}>
+                                    <img className={postsComponentStyles["post-element-image"]} src={post[1]} alt={post[0].altImage}></img>
+                                </a>
+                            </div>
+                            <div className={postsComponentStyles["post-texts-div"]}>
+                                <a href={props.baseUrl + "post/" + post[0].id}>
+                                    <p className={postsComponentStyles["post-element-title"]}>{post[0].title}</p>
+                                </a>
+                                <p className={postsComponentStyles["post-element-description"]}>{post[0].description}</p>
+                                <a className={postsComponentStyles["post-element-link"]} href={props.baseUrl + "post/" + post[0].id}>Ler mais...</a>
+                            </div>
+                        </div>
+                    );
+                })}
                 {
                     (props.haveBackPage || props.haveNextPage) &&
                     <div id={postsComponentStyles["previous-next-links-div"]}>
