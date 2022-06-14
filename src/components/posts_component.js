@@ -25,9 +25,9 @@ const PostsPage = (props) => {
     const GeneratePageWithPosts = () => {
         return(
             <div id={postsComponentStyles["posts"]} className={postsComponentStyles["center"]}>
-                {props.postsFiles.map(post => {
+                {props.postsFiles.map((post, index) => {
                     return(
-                        <div className={postsComponentStyles["post-element"]}>
+                        <div className={postsComponentStyles["post-element"]} key={index}>
                             <div className={postsComponentStyles["post-element-image-div"]}>
                                 <a href={props.baseUrl + "post/" + post[0].id}>
                                     <img className={postsComponentStyles["post-element-image"]} src={post[1]} alt={post[0].altImage}></img>
