@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# Página Pessoal do PQPMath3ws
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Olá, meu caro jovem gafanhoto!
 
-## Available Scripts
+Se você ainda não me conhece, satisfação! - Me chamo Mathews Martins, tenho 23 anos, sou um cidadão brasileiro, mineirinho raíz e meu nick artístico é [**PQPMath3ws**](https://pqpmath3ws.github.io/).
 
-In the project directory, you can run:
+Criei essa página aqui no GitHub Pages para poder compartilhar um pouco dos conhecimentos que eu adquiri com o tempo, em alguns diversos nichos e servir como um portfólio das minhas habilidades como <code>Full Stack Developer</code>.
 
-### `npm start`
+Minha página pessoal está separada em 4 nichos:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [**Hacker Sincero**](https://pqpmath3ws.github.io/#/hacker-sincero/), onde falo sobre <code>cybersegurança / segurança da informação / segurança digital</code> de forma simples e didática, para um usuário comum entender como funciona melhor a internet e como se manter mais seguro.
+- [**Produtor Otimista**](https://pqpmath3ws.github.io/#/produtor-otimista/), onde relato um pouco mais sobre produção músical, de forma totalmente digital *(in the box)*, e como realizar-la.
+- [**Programador Louco**](https://pqpmath3ws.github.io/#/programador-louco/), onde passo a visão de estratégias, ideias, e dicas de como se tornar um bom developer, na minha opinião *(e dou um pitaco também sobre tecnologias / linguagens disponíveis no mercado)*
+- [**Página do Artista**](https://pqpmath3ws.github.io/#/musicas/), onde contém todas as músicas produzidas e publicadas por mim, até o exato momento.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Eu espero realmente conseguir compartilhar um pouco do meu conhecimento a você, jovem internauta, e poder ajudar de alguma forma com o que eu compartilhar.
 
-### `npm test`
+# Patrocinadores
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="left">
+  <a href="https://www.instagram.com/conect_hpcell/">
+    <img alt="Connect HP Cell" width="10%" src="./src/assets/images/apoiadores/conect_hpcell.jpg"></img>
+  </a>
+</p>
