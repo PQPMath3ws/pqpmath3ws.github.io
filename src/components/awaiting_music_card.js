@@ -1,5 +1,7 @@
 import musicsStyle from "../assets/css/musics.module.css";
 
+const onerpmImage = require("../assets/images/logos/onerpm.png");
+
 const AwaitingMusicCard = (props) => {
     let className = "";
     if(musicsStyle[props.className]) className = " " + musicsStyle[props.className];
@@ -12,9 +14,25 @@ const AwaitingMusicCard = (props) => {
                 <p className={musicsStyle["music-title"]}>{props.musicItem.musicTitle}</p>
                 <p className={musicsStyle["choose-streaming-text"]}>Fique atento para prévia nas redes sociais!</p>
             </div>
+            {
+                (props.musicItem.preSaveLink) &&
+            <div className={musicsStyle["music-list-div"]}>
+                <ul className={musicsStyle["music-streaming-list"]}>
+                    <li>
+                        <div>
+                            <img className={musicsStyle["music-streaming-image"]} src={onerpmImage} alt="Logo da ONErpm" />
+                            <a className={musicsStyle["music-streaming-link"]} href={props.musicItem.preSaveLink} rel="noreferrer" target="_blank">Pré-Save</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            }
+            {
+                (!props.musicItem.preSaveLink) &&
             <div className={musicsStyle["music-list-div"]}>
                 <p className={musicsStyle["awaiting-publish-text"] + " " + musicsStyle["center"]}>AGUARDANDO PUBLICAÇÃO...</p>
             </div>
+            }
         </div>
     );
 }
