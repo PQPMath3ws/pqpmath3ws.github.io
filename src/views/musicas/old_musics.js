@@ -15,6 +15,7 @@ const musicsImages = [
     require('../../assets/images/capa_musicas/EhSohDeixarAcontecer.jpg'),
     require('../../assets/images/capa_musicas/Nightmares.jpg'),
     require('../../assets/images/capa_musicas/Invisivel.jpg'),
+    require('../../assets/images/capa_musicas/SentaPraMim.jpg')
 ];
 
 const OldMusics = () => {
@@ -27,7 +28,8 @@ const OldMusics = () => {
                     <MusicCard musicItem={MusicLinks[2]} musicImage={musicsImages[2]} className={"musicCardClass"}></MusicCard>
                     <MusicCard musicItem={MusicLinks[3]} musicImage={musicsImages[3]} className={"musicCardClass"}></MusicCard>
                     <MusicCard musicItem={MusicLinks[4]} musicImage={musicsImages[4]} className={"musicCardClass"}></MusicCard>
-                    <MusicCard musicItem={MusicLinks[5]} musicImage={musicsImages[5]}></MusicCard>
+                    <MusicCard musicItem={MusicLinks[5]} musicImage={musicsImages[5]} className={"musicCardClass"}></MusicCard>
+                    <MusicCard musicItem={MusicLinks[6]} musicImage={musicsImages[6]}></MusicCard>
                 </Flickity>
                 <div id={musicsStyle["preSave-button-div"]} className={musicsStyle["center"]}>
                     <a id={musicsStyle["preSave-button"]} href="#/musicas/?preSave=1">Novos Projetos</a>

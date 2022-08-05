@@ -9,10 +9,6 @@ import "../../assets/css/flickity.css";
 
 const aboutMusics = [
     {
-        "musicTitle": "Senta pra Mim",
-        "preSaveLink": "https://onerpm.link/732111351108"
-    },
-    {
         "musicTitle": "Antes do Prazer"
     },
     {
@@ -28,7 +24,6 @@ const aboutMusics = [
 ];
 
 const albuns_images = [
-    require('../../assets/images/capa_musicas/SentaPraMim.jpg'),
     require('../../assets/images/capa_musicas/secret.jpg'),
     require('../../assets/images/capa_musicas/secret.jpg'),
     require('../../assets/images/capa_musicas/secret.jpg'),
@@ -44,7 +39,6 @@ const PreSaveMusics = () => {
                     <AwaitingMusicCard musicItem={aboutMusics[1]} musicImage={albuns_images[1]} className={"musicCardClass"}></AwaitingMusicCard>
                     <AwaitingMusicCard musicItem={aboutMusics[2]} musicImage={albuns_images[2]} className={"musicCardClass"}></AwaitingMusicCard>
                     <AwaitingMusicCard musicItem={aboutMusics[3]} musicImage={albuns_images[3]} className={"musicCardClass"}></AwaitingMusicCard>
-                    <AwaitingMusicCard musicItem={aboutMusics[4]} musicImage={albuns_images[4]} className={"musicCardClass"}></AwaitingMusicCard>
                 </Flickity>
                 <br></br>
                 <div id={musicsStyle["social-media-div"]} className={musicsStyle["center"]}>
