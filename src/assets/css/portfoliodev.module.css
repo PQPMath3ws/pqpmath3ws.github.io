@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
-.homepage-start-code {
+.portfoliodev-start-code {
     margin-top: 0%;
     width: auto;
     display: flex;
@@ -9,7 +9,7 @@
     font-family: 'Roboto Mono', monospace;
 }
 
-#homepage-body {
+#portfoliodev-body {
     background-color: #E6E6E6;
 }
 
@@ -18,21 +18,21 @@
     width: 100%;
 }
 
-#main-page-items {
+#portfolio-dev-items {
     margin-top: 24px;
 }
 
-#main-page-image-header {
+#portfolio-dev-image-header {
     margin-bottom: 24px;
 }
 
-#main-page-img-header {
+#portfolio-dev-img-header {
     width: 120px;
     height: 120px;
     border-radius: 60px;
 }
 
-#home-page-text {
+#portfolio-dev-text {
     font-size: 18px;
 }
 
@@ -40,21 +40,18 @@
     font-weight: bold !important;
 }
 
-#welcome-text {
-    margin-top: 6px;
+#list-text {
     font-size: 16px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-#choose-text {
-    font-size: 16px;
-    margin-top: -10px;
+#portfolio-dev-links {
+    margin-top: 30px;
 }
 
-#main-page-links {
-    margin-top: 26px;
-}
-
-#main-page-links a {
+#portfolio-dev-links a {
     display: inline-block;
     margin-bottom: 20px;
     padding-top: 14px;
@@ -73,7 +70,7 @@
     cursor: pointer;
 }
 
-#main-page-links a:hover {
+#portfolio-dev-links a:hover {
     background-color: #0589DC;
 }
 
@@ -133,6 +130,13 @@
 }
 
 @media (max-width: 576px) {
+    #portfolio-dev-links a {
+        height: 78px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 90% !important;
+    }
+
     #social-media-span p {
         font-size: 20px;
     }
@@ -143,6 +147,13 @@
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+    #portfolio-dev-links a {
+        height: 58px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 90% !important;
+    }
+
     #social-media-span p {
         font-size: 21px;
     }
@@ -153,6 +164,13 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    #portfolio-dev-links a {
+        height: 58px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 90% !important;
+    }
+
     #social-media-span p {
         font-size: 22px;
     }
