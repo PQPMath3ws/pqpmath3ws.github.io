@@ -23,7 +23,7 @@ const PorfolioDevHomepage = () => {
                         <p id={portfolioDevStyle["portfolio-dev-text"]} className={portfolioDevStyle["font-bold"]}><b>Meu Portfólio DEV!</b></p>
                         <p id={portfolioDevStyle["list-text"]}>Aqui se encontra um portfólio de sites/projetos que eu já desenvolvi / contribuí no desenvolvimento, que estão públicos ainda:</p>
                     </div>
-                    <div id={portfolioDevStyle["portfolio-dev-links"]} className={portfolioDevStyle["center"]}>
+                    <div id={portfolioDevStyle["portfolio-dev-links"]}>
                         <a href="https://github.com/PQPMath3ws/MQTT-Receiver" className={portfolioDevStyle["font-bold"]} rel="noreferrer" target="_blank">
                             MQTT Client Receiver (HTML5 + JS + CSS3)
                         </a>
