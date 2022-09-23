@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7750cb17.css",
-    "main.js": "/static/js/main.20e483fe.js",
+    "main.css": "/static/css/main.4ffb8322.css",
+    "main.js": "/static/js/main.ac40bbe4.js",
     "static/media/profile_pic.jpg": "/static/media/profile_pic.6b702883fd731343319f.jpg",
     "static/media/SentaPraMim.jpg": "/static/media/SentaPraMim.dbac28bd8a498d438e2b.jpg",
     "static/media/MeioInseguroEnfim.jpg": "/static/media/MeioInseguroEnfim.70cbc9cca3fd728f5861.jpg",
@@ -16,11 +16,11 @@
     "static/media/produtor_otimista.png": "/static/media/produtor_otimista.09c01547ba7e86a9cee7.png",
     "static/media/conect_hpcell.jpg": "/static/media/conect_hpcell.5a152e557df482ee1cd9.jpg",
     "index.html": "/index.html",
-    "main.7750cb17.css.map": "/static/css/main.7750cb17.css.map",
-    "main.20e483fe.js.map": "/static/js/main.20e483fe.js.map"
+    "main.4ffb8322.css.map": "/static/css/main.4ffb8322.css.map",
+    "main.ac40bbe4.js.map": "/static/js/main.ac40bbe4.js.map"
   },
   "entrypoints": [
-    "static/css/main.7750cb17.css",
-    "static/js/main.20e483fe.js"
+    "static/css/main.4ffb8322.css",
+    "static/js/main.ac40bbe4.js"
   ]
 }
