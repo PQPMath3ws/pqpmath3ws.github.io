@@ -109,7 +109,7 @@ export default function PaginaDeInicio() {
             <p>Aos <b className="text-red-800"><i>18 anos</i></b> de idade, comecei a fazer faculdade de <b className="text-red-800"><i>Sistemas de Informação</i></b>. Aos <b className="text-red-800"><i>20 anos</i></b>, realizei meu primeiro estágio na área de <i className="text-[#000000]">Desenvolvimento Mobile (Android e iOS)</i> e também meu primeiro estágio em <i className="text-[#000000]">Desenvolvimento Web.</i></p>
             <p>E desde então, entre idas e vindas, estou há <b className="text-red-800"><i>5 anos</i></b> como programador/desenvolvedor no mercado. Participei também de alguns projetos colaborativos durante esse tempo.</p>
             <p>E esse sou euzinho:</p>
-            <Image src="/images/me.png" alt="Uma imagem do autor do website, que é branco, dos olhos castanhos, cabelo baixo, e vestido com camisa social branca." width="1000" height="1000" layout="responsive" objectFit="contain">
+            <Image src="./images/me.png" alt="Uma imagem do autor do website, que é branco, dos olhos castanhos, cabelo baixo, e vestido com camisa social branca." width="1000" height="1000">
             </Image>
             <p>Satisfação em conhecer-lo! Siga abaixo para conhecer mais sobre o meu lado profissional.</p>
           </div>
@@ -121,7 +121,7 @@ export default function PaginaDeInicio() {
               <time className="text-lg text-gray-900 dark:text-white">Janeiro de 2023 - Atualmente</time>
               <div className="mt-3">
                 <Link href="https://discord.gg/sectorcrp" className={`items-center block p-3 sm:flex flex-col hover:bg-gray-100 dark:hover:bg-gray-700 gap-6 text-[#DEDEDE] text-[24px] ${hammersmithOne.className}`} rel="noreferrer" target="_blank">
-                  <Image className="w-[40%] h-[40%] mb-3 mr-3 rounded-full sm:mb-0" src="/images/sectorc.webp" alt="Jese Leos image" width="500" height="500"></Image>
+                  <Image className="w-[40%] h-[40%] mb-3 mr-3 rounded-full sm:mb-0" src="./images/sectorc.webp" alt="Jese Leos image" width="500" height="500"></Image>
                   <b><p>Programador/Desenvolvedor no Sector C (Voluntário)</p></b>
                   <p className="text-[16px]">Sector C RP é um projeto de servidor brasileiro customizado de Grand Theft Auto Online para PC, via FiveM, com uma pegada de Cyber Punk (futurista). Atuo como Tech Leader e programador full-stack no pŕojeto, com LUA, JavaScript, e alguns frameworks front-end (Vue.js, React.js ou JavaScript Nativo + Html + CSS.)</p>
                 </Link>
@@ -131,7 +131,7 @@ export default function PaginaDeInicio() {
               <time className="text-lg text-gray-900 dark:text-white">Dezembro de 2020 - Maio de 2021</time>
               <div className="mt-3">
                 <Link href="https://www.linkedin.com/company/educame/" className={`items-center block p-3 sm:flex flex-col hover:bg-gray-100 dark:hover:bg-gray-700 gap-6 text-[#DEDEDE] text-[24px] ${hammersmithOne.className}`} rel="noreferrer" target="_blank">
-                  <Image className="w-[40%] h-[40%] mb-3 mr-3 rounded-full sm:mb-0" src="/images/educame.jpg" alt="Jese Leos image" width="500" height="500"></Image>
+                  <Image className="w-[40%] h-[40%] mb-3 mr-3 rounded-full sm:mb-0" src="./images/educame.jpg" alt="Jese Leos image" width="500" height="500"></Image>
                   <b><p>Programador/Desenvolvedor na Startup Educame (Voluntário)</p></b>
                   <p className="text-[16px]">Participante e finalista da 9ª edição da Campus Mobile com a Startup Educame, na qual participei como desenvolvedor mobile (Flutter) de um sistema voltado para o auxílio do ensino básico escolar para crianças e adolescentes.</p>
                 </Link>
@@ -141,7 +141,7 @@ export default function PaginaDeInicio() {
               <time className="text-lg text-gray-900 dark:text-white">Agosto de 2019 - Novembro de 2019</time>
               <div className="mt-3">
                 <Link href="#" className={`items-center block p-3 sm:flex flex-col hover:bg-gray-100 dark:hover:bg-gray-700 gap-6 text-[#DEDEDE] text-[24px] ${hammersmithOne.className}`} rel="noreferrer" target="_blank">
-                  <Image className="w-[40%] h-[40%] mb-3 mr-3 rounded-full sm:mb-0" src="/images/clickinnovation.jpg" alt="Jese Leos image" width="500" height="500"></Image>
+                  <Image className="w-[40%] h-[40%] mb-3 mr-3 rounded-full sm:mb-0" src="./images/clickinnovation.jpg" alt="Jese Leos image" width="500" height="500"></Image>
                   <b><p>Programador/Desenvolvedor na Startup Click Innovation (Voluntário)</p></b>
                   <p className="text-[16px]">Participante e finalista do Agita! (Sebrae - Montes Claros) de 2019 com a Startup Click Innovation, prestando serviço como Desenvolvedor Full Stack Web (PHP) de um sistema de cardápio e pedidos online para lanchonetes e restaurantes.</p>
                 </Link>
