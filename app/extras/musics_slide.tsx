@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
+// @ts-ignore
 import Flickity from 'react-flickity-component'
 
 import { openSans } from '../fonts'
