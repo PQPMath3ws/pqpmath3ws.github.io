@@ -3,16 +3,11 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookSquare, faGithub, faInstagram, faLinkedin, faTelegram, faTwitch, faTwitterSquare, faYoutube } from '@fortawesome/free-brands-svg-icons'
-
-import { hammersmithOne, kablammo, lilitaOne, pressStart2P } from '../fonts'
-import HeaderButtonDropdown from '../components/header_dropdown_button'
 import { faComputer } from '@fortawesome/free-solid-svg-icons'
 
-interface HeaderObject {
-  itemName: string,
-  linkAddress: string,
-}
+import Footer from '../components/footer'
+import Header from '../components/header'
+import { hammersmithOne, pressStart2P } from '../fonts'
 
 interface ProjectItem {
   projectName: string,
@@ -41,21 +36,6 @@ export default function PaginaDeInicio() {
     "Isso daqui é um teleprompter?",
   ]
 
-  const blogsItems: HeaderObject[] = [
-    {
-      itemName: "Hacker Sincero",
-      linkAddress: "/hacker-sincero/",
-    },
-    {
-      itemName: "Produtor Otimista",
-      linkAddress: "/produtor-otimista/",
-    },
-    {
-      itemName: "Programador Louco",
-      linkAddress: "/programador-louco/",
-    },
-  ]
-
   const projectsList: ProjectItem[] = [
     {
       projectName: "MQTT Client Receiver (HTML5 + JS + CSS3)",
@@ -77,34 +57,26 @@ export default function PaginaDeInicio() {
       projectName: "MobilePress - Um Cliente WordPress Mobile (Flutter (Dart) + MySQL) - Em breve!",
       projectLink: "#",
     },
+    {
+      projectName: "Where Am I? (Unity2D (C#) - Android) - Em breve!",
+      projectLink: "#",
+    },
   ]
+
+  const birthDate: Date = new Date(1998, 10, 24, 11, 30, 0, 0);
+  const todayDate: Date = new Date();
+
+  const birthDateAndTodayDateResult: number = Math.floor(Math.floor(Math.abs(todayDate.valueOf() - birthDate.valueOf()) / (1000 * 60 * 60 * 24)) / 365);
 
   return (
     <div className="w-full h-full overflow-x-hidden">
-      <div className="w-max h-[30px] flex gap-8 bg-[#202020] pl-[8px] pr-[8px] relative overflow-x-hidden overflow-y-hidden">
-        <div className="w-max h-full flex justify-around gap-8 items-center overflow-x-hidden overflow-y-hidden whitespace-nowrap relative animate-[headerMoviment_34s_linear_infinite]">
-          {headerMessages.map((message, index) => (<div className={`${lilitaOne.className} text-[#DEDEDE] text-[12px] inline-block`} key={"header1_" + index}>{message.toUpperCase()}</div>))}
-        </div>
-        <div className="w-max h-full flex justify-around gap-8 items-center overflow-x-hidden overflow-y-hidden whitespace-nowrap relative animate-[headerMoviment_34s_linear_infinite]">
-          {headerMessages.map((message, index) => (<div className={`${lilitaOne.className} text-[#DEDEDE] text-[12px] inline-block`} key={"header2_" + index}>{message.toUpperCase()}</div>))}
-        </div>
-      </div>
-      <div className="w-full h-[120px] flex justify-center items-center bg-[#202020] border-b-4 border-red-800 border-solid">
-        <p className={`${kablammo.className} text-[#DEDEDE] sm:text-[38px] md:text-[58px] lg:text-[58px] xl:text-[68px] 2xl:text-[78px]`}>
-          Mathews Martins
-        </p>
-      </div>
-      <div className={`w-full h-[38px] flex items-center justify-around ${pressStart2P.className} text-[#DEDEDE] text-[10px] bg-[#101010] border-b-4 border-red-800 border-solid`}>
-        <Link href="/inicio">Início</Link>
-        <HeaderButtonDropdown headerItemName="Blogs" items={blogsItems} marginTopAdjust="mt-[173px]"></HeaderButtonDropdown>
-        <Link href="/extras">Extras</Link>
-      </div>
+      <Header headerMessages={headerMessages}></Header>
       <div className="bg-[#EEEEEE]">
         <div className="pt-[30px] flex flex-col items-center gap-12 pb-[30px] border-b-4 border-red-800 border-solid">
           <p className={`${pressStart2P.className} bg-[#202020] text-[#DEDEDE] text-[30px] px-[14px] py-[14px] rounded-xl`}>Sobre Mim</p>
           <div className={`w-[80%] ${hammersmithOne.className} text-center text-[20px] flex flex-col gap-5 text-[#202020]`}>
             <p>Olá, Jovem Gafanhoto - Tudo bom contigo? Satisfação em ver você por aqui!</p>
-            <p>Deixe-me apresentar-me por um momento: Me chamo <b className="text-red-800"><i>Mathews Martins</i></b>, tenho <b className="text-red-800"><i>24 anos</i></b> e moro atualmente em <b className="text-red-800"><i>Montes Claros, Minas Gerais</i></b>.</p>
+            <p>Deixe-me apresentar-me por um momento: Me chamo <b className="text-red-800"><i>Mathews Martins</i></b>, tenho <b className="text-red-800"><i>{birthDateAndTodayDateResult} anos</i></b> e moro atualmente em <b className="text-red-800"><i>Montes Claros, Minas Gerais</i></b>.</p>
             <p>Estudo programação desde os meus <b className="text-red-800"><i>13 anos</i></b> de idade. Desde então, comecei pequenos projetos pessoais e fui escalonando meus conhecimentos e práticas na área.</p>
             <p>Aos <b className="text-red-800"><i>18 anos</i></b> de idade, comecei a fazer faculdade de <b className="text-red-800"><i>Sistemas de Informação</i></b>. Aos <b className="text-red-800"><i>20 anos</i></b>, realizei meu primeiro estágio na área de <i className="text-[#000000]">Desenvolvimento Mobile (Android e iOS)</i> e também meu primeiro estágio em <i className="text-[#000000]">Desenvolvimento Web.</i></p>
             <p>E desde então, entre idas e vindas, estou há <b className="text-red-800"><i>5 anos</i></b> como programador/desenvolvedor no mercado. Participei também de alguns projetos colaborativos durante esse tempo.</p>
@@ -221,35 +193,7 @@ export default function PaginaDeInicio() {
           </div>
         </div>
       </div>
-      <div className="w-full sm:h-[180px] md:h-[200px] lg:h-[240px] xl:h-[260px] 2xl:h-[280px] flex flex-col justify-center items-center bg-[#202020]">
-        <p className={`${pressStart2P.className} text-[#DEDEDE] sm:text-[12px] md:text-[14px] lg:text-[18px] xl:text-[20px] 2xl:text-[24px]`}>Me siga/adicione nas redes sociais:</p>
-        <div className="mt-[16px] flex sm:gap-5 md:gap-6 lg:gap-7 xl:gap-8 2xl:gap-9">
-          <Link className="sm:text-[30px] md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[50px]" href="https://www.facebook.com/pqpmath3ws/" aria-label="Facebook" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon className="text-[#4267B2]" icon={faFacebookSquare}></FontAwesomeIcon>
-          </Link>
-          <Link className="sm:text-[30px] md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[50px]" href="https://github.com/PQPMath3ws/" aria-label="GitHub" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon className="text-[#DEDEDE]" icon={faGithub}></FontAwesomeIcon>
-          </Link>
-          <Link className="sm:text-[30px] md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[50px]" href="https://www.instagram.com/pqpmath3ws/" aria-label="Instagram" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon className="text-[#BC2A8D]" icon={faInstagram}></FontAwesomeIcon>
-          </Link>
-          <Link className="sm:text-[30px] md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[50px]" href="https://www.linkedin.com/in/pqpmath3ws/" aria-label="LinkedIn" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon className="text-[#0077B5]" icon={faLinkedin}></FontAwesomeIcon>
-          </Link>
-          <Link className="sm:text-[30px] md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[50px]" href="https://t.me/PQPMath3ws/" aria-label="Telegram" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon className="text-[#229ED9]" icon={faTelegram}></FontAwesomeIcon>
-          </Link>
-          <Link className="sm:text-[30px] md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[50px]" href="https://www.twitch.com/pqpmath3ws/" aria-label="Twitch" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon className="text-[#6441A5]" icon={faTwitch}></FontAwesomeIcon>
-          </Link>
-          <Link className="sm:text-[30px] md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[50px]" href="https://www.twitter.com/pqpmath3ws/" aria-label="Twitter" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon className="text-[#1DA1F2]" icon={faTwitterSquare}></FontAwesomeIcon>
-          </Link>
-          <Link className="sm:text-[30px] md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[50px]" href="https://www.youtube.com/c/PQPMath3ws/" aria-label="YouTube" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon className="text-[#FF0000]" icon={faYoutube}></FontAwesomeIcon>
-          </Link>
-        </div>
-      </div>
+      <Footer></Footer>
     </div>
   )
 }
