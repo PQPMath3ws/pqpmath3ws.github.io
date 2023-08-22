@@ -63,10 +63,13 @@ export default function PaginaDeInicio() {
     },
   ]
 
-  const birthDate: Date = new Date(1998, 10, 24, 11, 30, 0, 0);
-  const todayDate: Date = new Date();
+  const birthDate: Date = new Date(1998, 10, 24, 11, 30, 0, 0)
+  const todayDate: Date = new Date()
 
-  const birthDateAndTodayDateResult: number = Math.floor(Math.floor(Math.abs(todayDate.valueOf() - birthDate.valueOf()) / (1000 * 60 * 60 * 24)) / 365);
+  const monthDiff: number = todayDate.getTime() - birthDate.getTime()
+  const realAgeDateDiff: Date = new Date(monthDiff)
+
+  const birthDateAndTodayDateResult: number = Math.abs(realAgeDateDiff.getFullYear() - 1970)
 
   return (
     <div className="w-full h-full overflow-x-hidden">
