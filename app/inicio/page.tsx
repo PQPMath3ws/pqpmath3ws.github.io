@@ -54,6 +54,10 @@ export default function PaginaDeInicio() {
       projectLink: "https://github.com/PQPMath3ws/mali-discord-bot-poc",
     },
     {
+      projectName: "Dart Console Application Project (Dart 3)",
+      projectLink: "https://github.com/PQPMath3ws/dart_course_console_application",
+    },
+    {
       projectName: "MobilePress - Um Cliente WordPress Mobile (Flutter (Dart) + MySQL) - Em breve!",
       projectLink: "#",
     },
